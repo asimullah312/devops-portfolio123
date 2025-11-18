@@ -3,9 +3,8 @@ export const HERO_CONTENT = "Building scalable systems from code to cloud. DevOp
 export const ABOUT_TEXT = "I am Asim Ullah, a passionate DevOps Engineer focused on building automated, scalable, and reliable infrastructure. I specialize in Docker, Kubernetes, CI/CD pipelines, and cloud technologies, with hands-on experience deploying real applications using Jenkins, Argo CD, and container orchestration. I work across AWS, orchestrate containers with Docker and Kubernetes, and define infrastructure with Terraform and Ansible. Behind the command line, I'm equally comfortable in version control and workflow automation, using Git, GitHub Actions, GitLab CI, and Bash scripting to bridge collaboration and delivery. For me, DevOps isn't just about speed—it's about precision, repeatability, and creating systems that empower developers to ship confidently and innovate faster.";
 
 export const SKILLS = [
-  // Cloud
+  // Cloud - Only AWS (OCI removed)
   { name: 'AWS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloud', level: 85 },
-  { name: 'OCI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg', category: 'cloud', level: 80 },
 
   // Containers
   { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', category: 'containers', level: 90 },
@@ -26,7 +25,7 @@ export const SKILLS = [
   { name: 'AWS CodeBuild', icon: 'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/awscodebuild.svg', category: 'devops', level: 75 },
   { name: 'Bash Scripting', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg', category: 'devops', level: 85 },
 
-  // Development
+  // Development - Individual skills kept (Development Stack heading removed from display)
   { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg', category: 'development', level: 80 },
   { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg', category: 'development', level: 75 },
   { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg', category: 'development', level: 75 },
@@ -34,10 +33,8 @@ export const SKILLS = [
   { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg', category: 'development', level: 85 },
   { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg', category: 'development', level: 80 },
 
-  // Databases
-  { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg', category: 'database', level: 75 },
+  // Databases - Only MySQL (MongoDB and Oracle SQL removed)
   { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', category: 'database', level: 80 },
-  { name: 'Oracle SQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg', category: 'database', level: 75 },
 ];
 
 export const PROJECTS = [
