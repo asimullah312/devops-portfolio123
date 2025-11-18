@@ -10,7 +10,6 @@ export const Projects = () => {
   const filters = [
     { id: 'all', label: 'All Projects', count: PROJECTS_BY_CATEGORY.all.length },
     { id: 'devops', label: 'DevOps', count: PROJECTS_BY_CATEGORY.devops.length },
-    { id: 'fullstack', label: 'Full-Stack', count: PROJECTS_BY_CATEGORY.fullstack.length },
   ];
 
   const getProjects = () => {
@@ -81,11 +80,11 @@ export const Projects = () => {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-bg-surface via-transparent to-transparent opacity-60" />
-                  
+
                   {/* Project Type Badge */}
                   <div className="absolute top-4 right-4">
                     <span className={`px-3 py-1 rounded-full text-xs font-mono font-medium ${
-                      project.category === 'devops' 
+                      project.category === 'devops'
                         ? 'bg-green-500/20 text-green-500 border border-green-500/30'
                         : 'bg-blue-500/20 text-blue-500 border border-blue-500/30'
                     }`}>
@@ -134,7 +133,7 @@ export const Projects = () => {
                       <Github size={16} className="group-hover/btn:scale-110 transition-transform" />
                       <span className="text-sm font-mono">Code</span>
                     </a>
-                    
+
                     {project.websiteLink && (
                       <a
                         href={project.websiteLink}
@@ -180,7 +179,7 @@ export const Projects = () => {
               <div className="text-accent-500">
                 $ cat project_summary.txt
               </div>
-              
+
               <div className="space-y-2 text-neutral-200">
                 <div className="flex justify-between">
                   <span>Total Projects:</span>
@@ -189,10 +188,6 @@ export const Projects = () => {
                 <div className="flex justify-between">
                   <span>DevOps Projects:</span>
                   <span className="text-primary-500">{PROJECTS_BY_CATEGORY.devops.length}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Full-Stack Projects:</span>
-                  <span className="text-primary-500">{PROJECTS_BY_CATEGORY.fullstack.length}</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Technologies Used:</span>
@@ -205,7 +200,7 @@ export const Projects = () => {
               <div className="pt-4 border-t border-neutral-700 text-sm text-neutral-400">
                 <div className="flex items-center space-x-2">
                   <span className="text-accent-500">$</span>
-                  <span>echo "Each project demonstrates real-world implementation of cloud-native architecture and modern development practices"</span>
+                  <span>echo "All projects demonstrate real-world implementation of cloud-native architecture and DevOps practices"</span>
                 </div>
               </div>
             </div>
@@ -227,7 +222,7 @@ export const Projects = () => {
               Interested in Collaboration?
             </h2>
             <p className="text-xl text-neutral-200 mb-8 leading-relaxed">
-              These projects showcase my expertise in DevOps and full-stack development. 
+              These projects showcase my expertise in DevOps and cloud infrastructure.
               Let's discuss how we can work together on your next project.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
