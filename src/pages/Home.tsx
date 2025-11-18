@@ -8,8 +8,8 @@ import { HERO_CONTENT, SKILLS, PROJECTS } from '../data/portfolio';
 export const Home = () => {
   const stats = [
     { label: 'Years Experience', value: '1+' },
-    { label: 'Cloud Platforms', value: '3' },
-    { label: 'Projects Completed', value: '10+' },
+    { label: 'Cloud Platforms', value: '2' },
+    { label: 'Projects Completed', value: '7+' },
     { label: 'Technologies', value: '19+' },
   ];
 
@@ -19,7 +19,7 @@ export const Home = () => {
     <div className="min-h-screen bg-bg-page relative overflow-hidden">
       {/* 3D Grid Background */}
       <Grid3DBackground />
-      
+
       {/* Main Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center relative z-10">
@@ -37,7 +37,7 @@ export const Home = () => {
 
             {/* Typewriter heading */}
             <div className="font-mono text-4xl md:text-6xl lg:text-8xl font-bold tracking-tight text-primary-500">
-              <Typewriter text="DevOps & Cloud Engineer" delay={80} />
+              <Typewriter text="Asim Ullah" delay={80} />
               <span className="terminal-cursor ml-2" />
             </div>
 
@@ -189,7 +189,7 @@ export const Home = () => {
               Ready to Deploy Your Vision?
             </h2>
             <p className="text-xl text-neutral-200 mb-8 leading-relaxed">
-              Let's build something amazing together. From infrastructure automation to full-stack development, 
+              Let's build something amazing together. From infrastructure automation to full-stack development,
               I'm here to turn your ideas into production reality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -200,7 +200,7 @@ export const Home = () => {
                 Start a Project
               </Link>
               <a
-                href="https://github.com/neerajnakka"
+                href="https://github.com/asimullah312"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-neutral-600 text-neutral-200 hover:border-primary-500 hover:text-primary-500 font-semibold rounded-lg transition-all duration-200"
